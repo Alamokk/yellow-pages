@@ -1,7 +1,9 @@
 Do npm install, as packages like dotenv and nodemon are required.
 
-npm run dev for Front end
-npm start for Back end
+# npm run dev for Front end
+
+# npm start for Back end
+
 Both the commands should be run from the root folder.
 
 Data is stored in MongoDB.
