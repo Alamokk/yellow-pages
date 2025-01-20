@@ -1,0 +1,25 @@
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.searchBar {
+  padding: 0.5rem 1rem;
+  border: 2px solid #ffd700;
+  border-radius: 4px;
+  width: 300px;
+}
+
+.addButton {
+  background-color: #ffd700;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.addButton:hover {
+  background-color: #ffed4a;
+}

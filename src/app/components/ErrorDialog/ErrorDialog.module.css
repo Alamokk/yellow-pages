@@ -1,0 +1,46 @@
+.errorDialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 2.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  border-radius: 8px;
+  border: 2px solid #e53e3e;
+  background-color: #fff3cd;
+  color: #dc3545;
+  min-height: 300px;
+}
+
+.closeButton {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  margin: 0;
+  padding: 0.25rem;
+  background-color: transparent;
+  color: #dc3545;
+  border: none;
+  cursor: pointer;
+  transition: color 0.2s;
+  &:hover {
+    color: #dc3545;
+  }
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #dc3545;
+}
+
+.errorMessage {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+  color: #dc3545;
+  word-break: break-word;
+}

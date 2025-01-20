@@ -1,0 +1,90 @@
+.dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 2.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  border-radius: 8px;
+  border: 2px solid #ffd700;
+  min-width: 300px;
+}
+
+.dialogTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #333333;
+}
+
+.formGroup {
+  margin-bottom: 1rem;
+}
+.input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ffd700;
+  border-radius: 4px;
+  &:focus {
+    outline: none;
+    border-color: #ffed4a;
+  }
+}
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.primaryButton {
+  padding: 0.5rem 1rem;
+  background-color: #ffd700;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  &:hover {
+    background-color: #ffed4a;
+  }
+}
+.deleteButton {
+  padding: 0.5rem 1rem;
+  background-color: #e53e3e;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  &:hover {
+    background-color: #c53030;
+  }
+}
+.cancelButton {
+  padding: 0.5rem 1rem;
+  background-color: #718096;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  &:hover {
+    background-color: #4a5568;
+  }
+}
+
+.contactData {
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  background-color: rgba(255, 215, 0, 0.1);
+}
+.contactData p {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+  color: #333333;
+}
+.contactData strong {
+  color: #000;
+  margin-right: 0.5rem;
+}

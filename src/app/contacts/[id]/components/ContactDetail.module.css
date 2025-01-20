@@ -1,0 +1,73 @@
+.container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fffdf5;
+  margin-bottom: 2rem;
+}
+
+.heading {
+  margin: 0;
+  color: #333;
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+  margin-bottom: 1.5rem;
+  text-transform: capitalize;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.infoRow {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background: #fff9e6;
+  border-radius: 4px;
+}
+
+.label {
+  font-weight: 500;
+  width: 100px;
+}
+
+.value {
+  color: #666;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.primaryButton {
+  padding: 0.5rem 1rem;
+  background: #ffd700;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.secondaryButton {
+  padding: 0.5rem 1rem;
+  background: #fff;
+  border: 1px solid #ffd700;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+.primaryButton:hover {
+  background: #ffed4a;
+}
+
+.secondaryButton:hover {
+  background: #fff9e6;
+}

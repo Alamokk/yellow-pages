@@ -1,0 +1,44 @@
+.container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fffdf5;
+}
+
+.heading {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #ffd700;
+}
+
+.contactLink {
+  display: block;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.contactLink:hover {
+  background-color: #fff9e6;
+  border-color: #ffd700;
+  transition: all 0.2s ease-in-out;
+}
+
+.contactItem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactItem span {
+  color: #666;
+}
+
+.contactItem span:first-child {
+  font-weight: 500;
+  color: #333;
+}

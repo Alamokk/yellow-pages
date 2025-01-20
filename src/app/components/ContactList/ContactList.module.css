@@ -1,0 +1,32 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.table th,
+.table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.table th {
+  background-color: #ffd700;
+  color: #333;
+}
+
+.table tr:hover {
+  background-color: #fffdf0;
+}
+
+.editIcon {
+  cursor: pointer;
+  margin-right: 10px;
+  color: #666;
+}
+
+.deleteIcon {
+  cursor: pointer;
+  color: #dc3545;
+}
