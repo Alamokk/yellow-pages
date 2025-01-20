@@ -1,12 +1,13 @@
 Do npm install, as packages like dotenv and nodemon are required.
 
-# npm run dev for Front end
+Front end: npm run dev (Port should be 3000).
 
-# npm start for Back end
+Back end: npm start (Port should be 5000).
 
 Both the commands should be run from the root folder.
 
 Data is stored in MongoDB.
+DB connection string is present in .env.
 
 Code base still needs optimization and bug fixes.
 
